@@ -85,6 +85,8 @@ BOARD_RAMDISK_USE_LZ4 := true
 TARGET_KERNEL_CONFIG := \
     vendor/sm8150-perf_defconfig \
     vendor/oplus.config
+# KernelSU-Next and SuSFS kernel configuration
+TARGET_KERNEL_CONFIG += ksun_sus.config
 TARGET_KERNEL_SOURCE := kernel/oneplus/sm8150
 
 # Kernel modules - WLAN
